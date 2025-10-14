@@ -10,6 +10,41 @@
     <h1>Adding styles</h1>
     <p>First paragraph</p>
     <p>Second paragraph</p>
+
+    <style>
+        ul{
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        li{
+            display: block;
+            padding: 16px;
+        }
+
+
+        li:nth-child(3n-1){
+            background: skyblue;
+            color:white;
+            font-weight: bold;
+        }
+        li:nth-child(3n){
+            background: deepskyblue;
+            color:white;
+            font-weight: bolder;
+        }
+    </style>
+
+    <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+        <li>Item 5</li>
+        <li>Item 6</li>
+
+    </ul>
     
 </body>
 </html>
