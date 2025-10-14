@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+p{
+    text-align: left;
+}
+
+.underline{
+    text-decoration: underline;
+}
+
+.line-through{
+    text-decoration: line-through;
+}
+
+.uppercase{
+    text-transform: uppercase;
+}
+
+.lowercase{
+    text-transform: lowercase;
+}
+
+.capitalize{
+    text-transform: capitalize;
+}
+
+.small-line-height{
+    line-height: .5;
+}
+
+.large-line-height{
+    line-height: 1.5;
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif
+}
+
+h1{
+    font-size: 3.125em;
+}
+
+p{
+    font-size: 1em;
+}
+span{
+    font-weight: bold;
+}

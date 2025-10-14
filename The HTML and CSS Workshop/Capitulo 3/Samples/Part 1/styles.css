@@ -1,0 +1,33 @@
+.red{
+    color: red;
+}
+
+.green{
+    color: green;
+}
+
+.blue{
+    color: blue;
+}
+
+.square{
+    list-style: square;
+}
+
+.circle{
+    list-style: circle;
+}
+
+.upper-alpha{
+    list-style: upper-alpha;
+}
+
+.upper-roman{
+    list-style: upper-roman;
+}
+
+.alphabetic{
+    list-style: upper-alpha;
+}
+
+.roman{list-style: upper-roman;}
