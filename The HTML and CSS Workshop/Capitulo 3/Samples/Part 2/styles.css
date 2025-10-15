@@ -49,3 +49,11 @@ p{
 span{
     font-weight: bold;
 }
+
+div{
+    display: inline;
+}
+
+span{
+    display: block;
+}
