@@ -1,0 +1,20 @@
+article{
+    column-count: 3;
+    column-gap: 21px;
+    column-rule: 1px solid black;
+}
+
+h1{
+    text-align: center;
+    column-span: all;
+}
+
+p{
+    margin-top: 0px;
+    margin-bottom: 12px;
+}
+
+footer{
+    margin-top: 15px;
+    column-span: all;
+}

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>JavaScript Essentials</h1>
+
+    <h2>Variables</h2>
+    <p>Wrap up:</p>
+    <ul>
+        <li>Variables</li>
+        <li>Primitive data types</li>
+        <li>Analyzing and modifying data types</li>
+        <li>Operators</li>
+    </ul>
+
+    <h3>Variables</h3>
+
+    <h4>Assigning variables</h4>
+    <p>The first time you declare a variable, you use one of these: </p>
+    <ul>
+        <li><strong>let</strong>: variables that might have a new value. <ul>
+            <li>let value = 3;</li>
+            <li>let str = "some string";</li>
+        </ul></li>
+        <li><strong>const</strong>: used to variables that are assigned oce (pi value, for instance). <ul>
+            <li>const PI_VALUE = 3.14159;</li>
+            <li>It cannot be changed later without throwing an error: <i>Uncaught TypeError: Assignment to constant variable.
+</i></li>
+        </ul></li>
+        <li><strong>var</strong>: the difference between let and var is related to scope, but keeping it simple: it's a legacy code that we don't use anymore. <ul>
+            <li>var has global scope and let has a {block scope}.</li>
+        </ul></li>
+    </ul>
+    <p>After that, you only use the name of the existing variable to assign a new value:</p>
+
+    <ul>
+        <li>let firstname = "Bernardo";</li>
+        <li>firstname = "Diogo";</li>
+    </ul>
+
+    <h4>Naming variables</h4>
+    <p>Variables start with a lowercase letter (not a number) and should be descriptive</p>
+    <p>Cannot contain space, but underscore is allowed</p>
+    <ul>
+        <li>ageOfBuyer (camelCase) -- OK and used withing the book </li>
+        <li>age_of_buyer (snake_case) -- OK </li>
+        <li>AGE_OF_BUYER (SCREAMING_CASE) -- for const</li>
+        <li>When choosing is allowed, consistency is key</li>
+    </ul>
+
+    <h3>Primitive data types</h3>
+    <p>JS has seven primitive types:</p>
+    <ol>
+        <li><strong>String</strong>:
+            <ul>
+                <li>let message = `Let's learn ${language}`;</li>
+                <li>Escape characters: <ul>
+                    <li>"Hello, what's your name? It is <u>\</u>"Diogo<u>\</u>"?"</li>
+                </ul></li>
+            </ul>
+        </li>
+        <li><strong>Number</strong>: integer, floating point, exponential, octal, hexa and binary</li>
+        <li><strong>BigInt</strong>: those have a postfix n: 90071992574409920n</li>
+        <li><strong>Boolean</strong>: true or false</li>
+        <li><strong>Symbol</strong>: they can have the same value and be different</li>
+        <li><strong>Undefined</strong>: Type for variables that have not been assigned a value. <ul><li><strong>DON'T</strong> do this: <i>let terribleThingToDo: undefined;</i></li></ul></li>
+        <li><strong>null</strong>: the value is empty or has an unknown value. <ul><li>You can do this: <i>let betterOption = null;</i></li></ul></li>
+    </ol>
+
+    <h3>Typeof</h3>
+    <h3>Converting data types</h3>
+
+    <h2>Operators</h2>
+    <ul>
+        <li>Addition: (+)</li>
+        <li>Subtraction: (-)</li>
+        <li>Multiplication: (*) <ul>
+            <li>Multiplication of a number and a string results in a <strong>NaN</strong></li>
+        </ul></li>
+        <li>Division: (/)</li>
+        <li>Exponentiation: (**)</li>
+        <li>Modulus: (%)</li>
+        <li>Unary operators: increment and decrement</li>
+        <li>Prefix and postfix operators</li>
+        <li>Assignment operators</li>
+        <li>Comparison operators
+            <ul>
+                <li>Equal</li>
+                <li>Not equal</li>
+                <li>Greater than and smaller than</li>
+            </ul>
+        <li>Logical operators
+            <ul>
+                <li>and</li>
+                <li>or</li>
+                <li>not</li>
+            </ul>
+        </li>
+        </li>
+    </ul>
+
+</body>
+</html>
